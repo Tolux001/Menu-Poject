@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Building dynamic Food Menu--DOM Project" />
+    <meta data-rh="true" property="og:site_name" content="Tolux Menu Project" />
+    <meta data-rh="true" property="og:type" content="article" />
+    <meta data-rh="true" property="og:title" content="Menu Project" />
+    <meta
+      data-rh="true"
+      property="og:url"
+      content="https://tolux-menu-project.netlify.app/">
+    <meta
+      data-rh="true"
+      property="og:image"
+      content="./images/tolux001.png" />
+    <!-- Link Images -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/tolux001.png" />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/2c526a5255.js"
+      crossorigin="anonymous"></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Menu Project</title>
+  </head>
+  <body>
+    <section class="menu">
+      <!-- Title  -->
+      <div class="title">
+        <h2>Our Menu</h2>
+        <div class="underline"></div>
+      </div>
+      
+      <!-- Filter Button  -->
+      <div class="btn-container">
+        <button class="filter-btn" type="button" data-class="all">All</button>
+        <!-- Button now dynamically added -->
+        <!-- <button class="filter-btn" type="button" data-class="breakfast">breakfast</button>
+        <button class="filter-btn" type="button" data-class="lunch">lunch</button>
+        <button class="filter-btn" type="button" data-class="shakes">shakes</button> -->
+      </div>
+
+      <!-- Menu Items -->
+      <div class="section-center">
+        <!-- Single Items -->
+        <article class="menu-item">
+          <img src="images/menu-item.jpeg" class="photo" alt="menu Items" />
+          <!-- Article Information -->
+          <div class="item-info">
+            <header>
+              <h4>Buttermilk</h4>
+              <h4 class="price">$15</h4>
+            </header>
+            <p class="item-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam reiciendis tenetur deserunt eveniet commodi beatae
+              impedit quod omnis quos voluptates?
+            </p>
+          </div>
+        </article>
+        <!-- End of Single Items -->
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
