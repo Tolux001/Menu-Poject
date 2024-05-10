@@ -188,12 +188,21 @@ Menu
 .btn-container {
   margin-bottom: 4rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 1em;
-  margin: 0 auto;
-  max-width: 25em;
-  overflow: auto;
+}
+@media (max-width: 700px) {  
+  .btn-container {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    margin: 0 auto;
+    max-width: 25em;
+    overflow: auto;
+  }
 }
 .filter-btn {
   background: transparent;
