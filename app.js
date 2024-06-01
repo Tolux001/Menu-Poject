@@ -1,3 +1,9 @@
+// Hide preloader
+const preloader = document.querySelector('.preloader')
+window.addEventListener('load',()=> {
+	preloader.classList.add('hide-preloader')
+})
+
 //  import("./array.js").then((m) => {
 // 	const menu = m.default; // Access the default export
 //  console.log(menu);
